@@ -9,8 +9,8 @@ const artists = await response.json();
 const artistList = document.querySelector(`ol`);
 
 
-const artistData = artists.data.map((event) => {
-  return event
+const artistData = artists.data.map((artist) => {
+  return artist
 })
 
 artistData.forEach((artist) => {
